@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "rst-testmod",
+	"version": "${version}",
+	"name": "RST testMod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rst-testmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"dev.rstminecraft.RSTTestMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"baritone-meteor" : "*"
+
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
